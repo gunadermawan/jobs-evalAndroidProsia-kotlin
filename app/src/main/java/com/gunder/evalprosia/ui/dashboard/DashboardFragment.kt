@@ -14,7 +14,6 @@ class DashboardFragment : Fragment() {
     private var _binding: FragmentDashboardBinding? = null
     private val binding get() = _binding!!
     private lateinit var dashboardViewModel: DashboardViewModel
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
