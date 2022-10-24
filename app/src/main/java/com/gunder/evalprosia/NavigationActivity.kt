@@ -1,5 +1,6 @@
 package com.gunder.evalprosia
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.gunder.evalprosia.databinding.ActivityNavigationBinding
+import com.gunder.evalprosia.ui.login.LoginActivity
 import com.gunder.evalprosia.utils.Prefs
 
 class NavigationActivity : AppCompatActivity() {
@@ -33,10 +35,13 @@ class NavigationActivity : AppCompatActivity() {
                 val sharedPreferences = Prefs(this)
                 if (sharedPreferences.getIsLogin()) {
                     Log.d("NAV ACTIVITY", "login user using sharePref")
+                    navController.navigate(it.itemId)
                 } else {
+                    startActivity(Intent(this, LoginActivity::class.java))
                     Log.d("NAV ACTIVITY", "notification not clicked, move to another menu")
                 }
             } else {
+                navController.navigate(it.itemId)
                 Log.d("NAV ACTIVITY", "notification not clicked")
             }
             return@setOnItemReselectedListener

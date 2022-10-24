@@ -4,4 +4,27 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="tv_welcome">Hi, welcome!</string>
+    <string name="tv_login">Login</string>
+    <string name="tv_logout">Logout!</string>
+    <string name="tv_status">Status</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_forgot_pass">Lupa kata sandi?</string>
+    <string name="tv_other_method_login">Masuk dengan metode lain</string>
+    <string name="tv_or_other_method">atau masuk dengan</string>
+    <string name="tv_register">Daftar</string>
+    <string name="tv_save">Simpan</string>
+    <string name="tv_not_have_account">Belum punya akun?</string>
+    <string name="tv_have_account">Punya akun?</string>
+    <string name="iv_account_user_icon">account user icon</string>
+    <string name="tv_username">Username</string>
+    <string name="tv_phone">Phone Number</string>
+    <string name="text_view_privacy_police">Kebijakan Privasi</string>
+    <string name="tv_also">serta</string>
+    <string name="text_view_term_condition">dan ketentuan</string>
+    <string name="text_view_condition">Syarat</string>
+    <string name="text_view_with_register">Dengan mendaftar, saya menyetujui</string>
+    <string name="tv_image_profile">GD</string>
+    <string name="tv_edit_profile">edit profile</string>
 </resources>
